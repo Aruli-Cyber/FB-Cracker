@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Aruli-Azmi  \x1b[1;97m                   \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/Arul-Cyber\x1b[    \x1b[1;97m \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mWhatsApp       \x1b[1;91m:   \x1b[1;92\x1b[92m+6285540618027\x1b[     \x1b[1;97m      \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
+logo = " \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Aruli-Azmi  \x1b[1;97m                   \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/Arul-Cyber\x1b[    \x1b[1;97m \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mWhatsApp  \x1b[1;91m:   \x1b[1;92\x1b[92m+6285540618027\x1b[     \x1b[1;97m      \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
 
 def tik():
     titik = [
