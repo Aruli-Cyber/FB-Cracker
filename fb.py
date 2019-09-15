@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Aruli-Azmi  \x1b[1;97m                   \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/Arul-Cyber\x1b[    \x1b[1;97m \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mWhatsApp  \x1b[1;91m:   \x1b[1;92\x1b[92m+6285540618027\x1b[     \x1b[1;97m      \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
+logo = " \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Aruli-Azmi  \x1b[1;97m                   \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/Arul-Cyber\x1b[    \x1b[1;97m \n \x1b[1;97m \x1b[1;93m*  \x1b[1;97mWhatsApp  \x1b[1;91m:\x1b[1;92\x1b[92m+6285540618027\x1b[     \x1b[1;97m      \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
 
 def tik():
     titik = [
@@ -114,7 +114,7 @@ def login():
                 keluar()
 
         if 'checkpoint' in url:
-            print '\n\x1b[1;91m[!] \x1b[1;93mAccount Has Been Checkpoint'
+            print '\n\x1b[1;91m[!] \x1b[1;93mAccount Checkpoint'
             os.system('rm -rf login.txt')
             time.sleep(0.01)
             keluar()
@@ -159,7 +159,7 @@ def menu():
     print '\x1b[1;97m\xe2\x95\x94' + 50 * '\xe2\x95\x90' + '╗'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Name \x1b[1;91m: \x1b[1;92m' + nama + (39 - len(nama)) * '\x1b[1;97m ' + '║'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m FBID \x1b[1;91m: \x1b[1;92m' + id + (39 - len(id)) * '\x1b[1;97m ' + '║'
-    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '║'
+    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Follow \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '║'
     print '\x1b[1;97m╠' + 50 * '\xe2\x95\x90' + '╝'
     print '║-> \x1b[1;37;40m1. User Information'
     print '║-> \x1b[1;37;40m2. Hack Facebook Account'
